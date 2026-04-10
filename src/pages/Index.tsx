@@ -5,7 +5,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-black">
         <div className="container mx-auto px-4 md:px-8 py-4 flex justify-between items-center">
           <a href="/" className="text-xl font-bold tracking-tighter">
-            ПОРЦИЯ БИЗНЕСА
+            РАФИНАД54
           </a>
           <div className="flex space-x-8">
             <a href="#work" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
@@ -31,7 +31,7 @@ export default function Index() {
               БИЗНЕС
             </h1>
             <p className="text-xl max-w-xl">
-              Действующее производство порционных продуктов. Отлаженные процессы, постоянные клиенты, стабильная выручка. Готово к передаче новому владельцу.
+              Действующее пищевое производство в Новосибирске. Порционные продукты и сахарная пудра для HoReCa. Продажа 50% или 100% доли.
             </p>
             <a
               href="#contact"
@@ -42,9 +42,9 @@ export default function Index() {
           </div>
           <div className="col-span-12 md:col-span-5 flex items-center justify-center">
             <div className="relative w-full aspect-square bg-red-600 flex items-center justify-center">
-              <div className="text-white text-center">
-                <div className="text-7xl font-bold tracking-tighter">12+</div>
-                <div className="text-lg uppercase tracking-widest mt-2">лет на рынке</div>
+              <div className="text-white text-center px-6">
+                <div className="text-5xl font-bold tracking-tighter leading-tight">50%<br/>или<br/>100%</div>
+                <div className="text-base uppercase tracking-widest mt-3">доля в продаже</div>
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-black"></div>
             </div>
@@ -62,8 +62,8 @@ export default function Index() {
             <div className="text-sm uppercase tracking-widest mt-2 text-neutral-500">Постоянных клиентов</div>
           </div>
           <div>
-            <div className="text-5xl font-bold tracking-tighter">25%</div>
-            <div className="text-sm uppercase tracking-widest mt-2 text-neutral-500">Маржинальность</div>
+            <div className="text-5xl font-bold tracking-tighter">4</div>
+            <div className="text-sm uppercase tracking-widest mt-2 text-neutral-500">Канала продаж</div>
           </div>
         </div>
       </section>
@@ -84,7 +84,7 @@ export default function Index() {
                 </div>
               </div>
               <h3 className="text-xl font-bold mb-2">Порционный сахар</h3>
-              <p className="text-neutral-400">Фасовка 5–10 г. Поставки в кафе, рестораны, отели, авиакомпании. Белый и тростниковый сахар.</p>
+              <p className="text-neutral-400">Стики и саше 5–10 г, с логотипом и без. До 25 000 стиков/час. Поставки в гостиницы, кафе, рестораны, столовые. Договор с ТС «ЯРЧЕ».</p>
             </div>
 
             {/* Product 2 */}
@@ -92,11 +92,11 @@ export default function Index() {
               <div className="aspect-square bg-white mb-4 overflow-hidden">
                 <div className="w-full h-full flex flex-col items-center justify-center bg-neutral-100 group-hover:bg-red-600 transition-colors duration-300 p-6">
                   <span className="text-black text-6xl font-bold group-hover:text-white transition-colors">02</span>
-                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Соль</span>
+                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Соль & Перец</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">Порционная соль</h3>
-              <p className="text-neutral-400">Фасовка 1–5 г. HoReCa, фастфуд, доставка еды. Морская и поваренная соль, индивидуальная упаковка.</p>
+              <h3 className="text-xl font-bold mb-2">Порционная соль и перец</h3>
+              <p className="text-neutral-400">С логотипом заказчика и без. Для HoReCa-сегмента. Продажи через Ozon, Wildberries, Яндекс Маркет и прямые поставки.</p>
             </div>
 
             {/* Product 3 */}
@@ -108,13 +108,13 @@ export default function Index() {
                 </div>
               </div>
               <h3 className="text-xl font-bold mb-2">Сахарная пудра</h3>
-              <p className="text-neutral-400">Собственное производство из сахара-сырца. Фасовка 5–500 г. Поставки в кондитерские, пекарни, рестораны.</p>
+              <p className="text-neutral-400">Фасованная 1 кг и весовая 5, 10, 25 кг. Мельница 200 кг/час. Поставки кондитерам, пекарням. Продажи на маркетплейсах.</p>
             </div>
           </div>
 
           <div className="mt-12 p-8 border border-neutral-700">
             <p className="text-lg text-neutral-300">
-              В стоимость бизнеса входит: производственное оборудование, товарный знак, клиентская база, обученный персонал, технологические карты и рецептуры.
+              Многоканальные продажи: прямые клиенты HoReCa + Ozon, Wildberries, Яндекс Маркет, Авито. Готовый бренд с историей и отзывами на маркетплейсах.
             </p>
           </div>
         </div>
@@ -128,42 +128,76 @@ export default function Index() {
               <h2 className="text-6xl font-bold tracking-tighter mb-8">О БИЗНЕСЕ</h2>
               <div className="aspect-[4/5] bg-neutral-100 relative mb-8 md:mb-0 flex items-center justify-center">
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 border-2 border-black"></div>
-                <div className="text-center z-10">
-                  <div className="text-6xl font-bold">2012</div>
-                  <div className="text-sm uppercase tracking-widest mt-2">год основания</div>
+                <div className="text-center z-10 px-4">
+                  <div className="text-4xl font-bold tracking-tighter">НСК</div>
+                  <div className="text-sm uppercase tracking-widest mt-2">Новосибирск</div>
+                  <div className="text-xs mt-2 text-neutral-500">крупный логистический центр</div>
                 </div>
               </div>
             </div>
             <div className="col-span-12 md:col-span-7 md:pt-24">
               <p className="text-xl mb-6">
-                Действующее производство порционных продуктов питания с выстроенными каналами сбыта. Бизнес работает без участия владельца — есть управляющий и слаженная команда.
+                Готовый бизнес под ключ в сфере пищевого производства с налаженными продажами через маркетплейсы и прямыми поставками для HoReCa.
               </p>
               <p className="mb-6">
-                Собственные рецептуры и технологические карты, сертифицированное производство по стандарту ХАССП, долгосрочные контракты с сетевыми клиентами. Вся документация готова к передаче.
+                Предприятие выпускает порционный сахар, соль, перец (с логотипом и без) для гостиниц, кафе, ресторанов, столовых, а также фасованную и весовую сахарную пудру для кондитеров. Заключён договор с ТС «ЯРЧЕ».
               </p>
               <p className="mb-6">
-                Причина продажи — смена направления деятельности владельца. Бизнес прибыльный и имеет потенциал роста за счёт расширения ассортимента и выхода на новые регионы.
+                Причина продажи — оптимизация портфеля активов собственника. Бизнес полностью прозрачен: готовы предоставить финансовую отчётность, показать производство и познакомить с ключевыми клиентами.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-12">
                 <div>
-                  <h3 className="text-sm uppercase tracking-widest mb-4">Что входит</h3>
-                  <ul className="space-y-2">
-                    <li>Оборудование</li>
-                    <li>Клиентская база</li>
-                    <li>Персонал</li>
-                    <li>Товарный знак</li>
+                  <h3 className="text-sm uppercase tracking-widest mb-4">Что входит в сделку</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li>Клиентская база HoReCa</li>
+                    <li>4 автомата фасовки</li>
+                    <li>Мельница 200 кг/час</li>
+                    <li>Магазины на маркетплейсах</li>
+                    <li>Официальный сайт</li>
+                    <li>Договоры с поставщиками</li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-sm uppercase tracking-widest mb-4">Преимущества</h3>
-                  <ul className="space-y-2">
-                    <li>Работает без владельца</li>
-                    <li>Сертификат ХАССП</li>
-                    <li>Постоянные контракты</li>
-                    <li>Готовые рецептуры</li>
+                  <h3 className="text-sm uppercase tracking-widest mb-4">Перспективы роста</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li>Расширение ассортимента</li>
+                    <li>Новые маркетплейсы</li>
+                    <li>Собственный бренд для розницы</li>
+                    <li>Масштабирование по Сибири</li>
+                    <li>B2B-платформы</li>
+                    <li>Рост онлайн-продаж</li>
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Equipment Section */}
+      <section className="py-20 px-4 md:px-8 bg-black text-white">
+        <div className="container mx-auto">
+          <h2 className="text-6xl font-bold tracking-tighter mb-12">ОБОРУДОВАНИЕ</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="border border-neutral-700 p-8">
+              <div className="text-red-600 text-sm uppercase tracking-widest mb-4">Фасовочные автоматы</div>
+              <h3 className="text-2xl font-bold mb-4">3× DXD однорукавные</h3>
+              <p className="text-neutral-400">Производительность до 12 000 стиков/час каждый. Итого — до 36 000 стиков/час на трёх машинах.</p>
+            </div>
+            <div className="border border-neutral-700 p-8">
+              <div className="text-red-600 text-sm uppercase tracking-widest mb-4">Флагманский автомат</div>
+              <h3 className="text-2xl font-bold mb-4">Problend 04-51</h3>
+              <p className="text-neutral-400">5 рукавов, производство Болгария. До 25 000 стиков/час. Высокая производительность для крупных заказов.</p>
+            </div>
+            <div className="border border-neutral-700 p-8">
+              <div className="text-red-600 text-sm uppercase tracking-widest mb-4">Производство пудры</div>
+              <h3 className="text-2xl font-bold mb-4">Мельница 200 кг/час</h3>
+              <p className="text-neutral-400">Собственное производство сахарной пудры. Фасовка 1 кг, 5 кг, 10 кг, 25 кг под заказ кондитеров и пекарен.</p>
+            </div>
+            <div className="border border-neutral-700 p-8">
+              <div className="text-red-600 text-sm uppercase tracking-widest mb-4">Масштабируемость</div>
+              <h3 className="text-2xl font-bold mb-4">Рост без вложений</h3>
+              <p className="text-neutral-400">Производственные мощности позволяют кратно увеличить объёмы без существенных капитальных вложений.</p>
             </div>
           </div>
         </div>
@@ -175,7 +209,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
               <h2 className="text-6xl font-bold tracking-tighter mb-8">СВЯЗАТЬСЯ</h2>
-              <p className="text-xl mb-8">Оставьте заявку — расскажем подробности, покажем финансовую модель и организуем просмотр производства.</p>
+              <p className="text-xl mb-8">Оставьте заявку — покажем производство в Новосибирске, предоставим финансовую отчётность и познакомим с ключевыми клиентами.</p>
               <div className="space-y-4">
                 <p className="flex items-center">
                   <span className="w-24 text-sm uppercase tracking-widest">Почта</span>
@@ -191,14 +225,14 @@ export default function Index() {
                 </p>
                 <p className="flex items-center">
                   <span className="w-24 text-sm uppercase tracking-widest">Адрес</span>
-                  <span>Москва, Россия</span>
+                  <span>Новосибирск, Россия</span>
                 </p>
               </div>
 
               <div className="mt-12 p-6 bg-black/20">
-                <div className="text-3xl font-bold tracking-tighter">₽4 500 000</div>
+                <div className="text-3xl font-bold tracking-tighter">По договорённости</div>
                 <div className="text-sm uppercase tracking-widest mt-1 opacity-80">Стоимость бизнеса</div>
-                <div className="text-sm mt-2 opacity-70">Окупаемость — от 18 месяцев</div>
+                <div className="text-sm mt-2 opacity-70">Продажа 50% или 100% доли — условия обсуждаются индивидуально</div>
               </div>
             </div>
             <div>
@@ -244,7 +278,7 @@ export default function Index() {
                     id="message"
                     rows={4}
                     className="w-full bg-transparent border-b-2 border-white py-2 px-0 focus:outline-none focus:border-black placeholder-white/50"
-                    placeholder="Что вас интересует?"
+                    placeholder="Что вас интересует — 50% или 100%?"
                   ></textarea>
                 </div>
                 <button
@@ -262,7 +296,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="py-8 px-4 md:px-8 bg-black text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm mb-4 md:mb-0">2026 ПОРЦИЯ БИЗНЕСА. Продажа готового бизнеса.</p>
+          <p className="text-sm mb-4 md:mb-0">2026 РАФИНАД54. Продажа готового бизнеса. Новосибирск.</p>
           <div className="flex space-x-8">
             <a href="#" className="text-sm uppercase tracking-widest hover:text-red-600 transition-colors">
               Telegram
