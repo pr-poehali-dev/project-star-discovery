@@ -80,11 +80,11 @@ export default function Index() {
               <div className="aspect-square bg-white mb-4 overflow-hidden">
                 <div className="w-full h-full flex flex-col items-center justify-center bg-neutral-100 group-hover:bg-red-600 transition-colors duration-300 p-6">
                   <span className="text-black text-6xl font-bold group-hover:text-white transition-colors">01</span>
-                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Соусы & Заправки</span>
+                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Сахар</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">Порционные соусы</h3>
-              <p className="text-neutral-400">Фасовка 10–50 г. Поставки в рестораны, кафе, фастфуд-сети. 15 наименований собственных рецептур.</p>
+              <h3 className="text-xl font-bold mb-2">Порционный сахар</h3>
+              <p className="text-neutral-400">Фасовка 5–10 г. Поставки в кафе, рестораны, отели, авиакомпании. Белый и тростниковый сахар.</p>
             </div>
 
             {/* Product 2 */}
@@ -92,11 +92,11 @@ export default function Index() {
               <div className="aspect-square bg-white mb-4 overflow-hidden">
                 <div className="w-full h-full flex flex-col items-center justify-center bg-neutral-100 group-hover:bg-red-600 transition-colors duration-300 p-6">
                   <span className="text-black text-6xl font-bold group-hover:text-white transition-colors">02</span>
-                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Снеки & Перекусы</span>
+                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Соль</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">Порционные снеки</h3>
-              <p className="text-neutral-400">Индивидуальная упаковка. Поставки в отели, авиакомпании, корпоративные клиенты. Более 20 позиций.</p>
+              <h3 className="text-xl font-bold mb-2">Порционная соль</h3>
+              <p className="text-neutral-400">Фасовка 1–5 г. HoReCa, фастфуд, доставка еды. Морская и поваренная соль, индивидуальная упаковка.</p>
             </div>
 
             {/* Product 3 */}
@@ -104,11 +104,11 @@ export default function Index() {
               <div className="aspect-square bg-white mb-4 overflow-hidden">
                 <div className="w-full h-full flex flex-col items-center justify-center bg-neutral-100 group-hover:bg-red-600 transition-colors duration-300 p-6">
                   <span className="text-black text-6xl font-bold group-hover:text-white transition-colors">03</span>
-                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Специи & Приправы</span>
+                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Перец</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">Порционные специи</h3>
-              <p className="text-neutral-400">Фасовка по заказу клиента. Сети супермаркетов, HoReCa. Сертификаты качества, ХАССП.</p>
+              <h3 className="text-xl font-bold mb-2">Порционный перец</h3>
+              <p className="text-neutral-400">Фасовка 1–3 г. Чёрный молотый и смеси перцев. Поставки в сети ресторанов и служб доставки.</p>
             </div>
           </div>
 
