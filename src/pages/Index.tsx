@@ -54,11 +54,11 @@ export default function Index() {
         {/* Key metrics */}
         <div className="grid grid-cols-3 gap-8 mt-20 pt-12 border-t border-black">
           <div>
-            <div className="text-5xl font-bold tracking-tighter">₽18М</div>
+            <div className="text-5xl font-bold tracking-tighter">₽10М</div>
             <div className="text-sm uppercase tracking-widest mt-2 text-neutral-500">Годовая выручка</div>
           </div>
           <div>
-            <div className="text-5xl font-bold tracking-tighter">40+</div>
+            <div className="text-5xl font-bold tracking-tighter">60+</div>
             <div className="text-sm uppercase tracking-widest mt-2 text-neutral-500">Постоянных клиентов</div>
           </div>
           <div>
