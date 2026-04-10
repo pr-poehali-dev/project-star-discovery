@@ -104,11 +104,11 @@ export default function Index() {
               <div className="aspect-square bg-white mb-4 overflow-hidden">
                 <div className="w-full h-full flex flex-col items-center justify-center bg-neutral-100 group-hover:bg-red-600 transition-colors duration-300 p-6">
                   <span className="text-black text-6xl font-bold group-hover:text-white transition-colors">03</span>
-                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Перец</span>
+                  <span className="text-black text-sm uppercase tracking-widest mt-4 text-center group-hover:text-white transition-colors">Сахарная пудра</span>
                 </div>
               </div>
-              <h3 className="text-xl font-bold mb-2">Порционный перец</h3>
-              <p className="text-neutral-400">Фасовка 1–3 г. Чёрный молотый и смеси перцев. Поставки в сети ресторанов и служб доставки.</p>
+              <h3 className="text-xl font-bold mb-2">Сахарная пудра</h3>
+              <p className="text-neutral-400">Собственное производство из сахара-сырца. Фасовка 5–500 г. Поставки в кондитерские, пекарни, рестораны.</p>
             </div>
           </div>
 
